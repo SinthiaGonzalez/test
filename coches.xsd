@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="coches">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="coche" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="marca" type="xs:string"/>
+              <xs:element name="modelo" type="xs:string"/>
+              <xs:element name="anno" type="xs:positiveInteger"/>
+              <xs:element name="color" type="xs:string"/>
+              <xs:element name="precio" type="xs:decimal"/>
+            </xs:sequence>
+            <xs:attribute name="codigo" type="xs:string" use="required"/>
+            <xs:attribute name="tipo">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:enumeration value="deportivo"/>
+                  <xs:enumeration value="familiar"/>
+                  <xs:enumeration value="todo_terreno"/>
+                  <xs:enumeration value="utilitario"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

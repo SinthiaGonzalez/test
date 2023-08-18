@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coches xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="coches.xsd">
+  <coche codigo="C001" tipo="deportivo">
+    <marca>Lamborghini</marca>
+    <modelo>Aventador</modelo>
+    <anno>2022</anno>
+    <color>rojo</color>
+    <precio>380000</precio>
+  </coche>
+  <coche codigo="C002" tipo="familiar">
+    <marca>Volvo</marca>
+    <modelo>V90</modelo>
+    <anno>2021</anno>
+    <color>azul</color>
+    <precio>50000</precio>
+  </coche>
+</coches>

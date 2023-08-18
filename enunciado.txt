@@ -1,0 +1,13 @@
+Enunciado/descripción:
+
+El archivo XML
+
+En este ejemplo muestro un documento XML que describe coches de diferentes marcas y modelos
+Cada coche tiene marca, modelo, año de fabricacion, color y el precio
+el tipo de coche se añade como atributo y tambien el codigo
+
+El archivo XSD
+
+Este archivo define la estructura de coches.xml y las restricciones en lso valores permitidos
+en particular podemos observar que el codigo de coche es un atributo obligatorio
+podemos observar tambien los elementos que son de tipo string, int o decimal 
